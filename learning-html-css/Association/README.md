@@ -1,4 +1,4 @@
-<h1 align="center">HTML</h1>
+<h1 align="center">Association</h1>
 
 <!-- Table of content-->
 
@@ -7,24 +7,28 @@
 * [Overview](#overview)
     * [Built With](#built-with)
     * [Built by](#built-by)
+* [Features](#features)
 
 
 ## Overview
 
-![screenshot](./asset/site.png)
+![screenshot](./image/site.png)
 
-The exercise was to use HTML and to use the right tag for all the content
+The exercise was to pick one association and to Re-imagined the design and code it.
+
+Not really proud about the design 😂 I think I'm better with code.
+
 
 ### Built with
 
 <div>
-    <img width="30"  src="./asset/css3.svg" alt="Css3 logo"/>
+    <img width="30"  src="./image/css3.svg" alt="Css3 logo"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge" alt="CSS3"/>
 </div>    
 <div>
-    <img width="30"  src="./asset/html5.svg" alt="Html 5 Logo"/>
+    <img width="30"  src="./image/html5.svg" alt="Html 5 Logo"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
-</div> 
+</div>    
 
 ### Built by
 
@@ -39,3 +43,7 @@ The exercise was to use HTML and to use the right tag for all the content
 <a href="https://www.linkedin.com/in/vincent-btn-dev/">
     <img width="30" src="https://raw.githubusercontent.com/Vincent-Risk0/Utility-folder/49c9131fd1cb3709877b9c0597ff8fef85ccb15b/asset/linkedin.svg" alt="LinkedIn"/>
 </a>
+
+## Features
+
+I pick [Institut Pasteur](https://www.pasteur.fr/fr) because when becode started, one of the biggest event on twitch started too. It's Zevent and a lot of French streamer, stream for 3 days (week-end) and try to collect as much money as possible for an association.
