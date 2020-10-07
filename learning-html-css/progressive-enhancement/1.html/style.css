@@ -1,0 +1,112 @@
+/* GENERAL */
+body{
+    width: 90%;
+    margin:auto;
+    background: linear-gradient(90deg, rgb(69, 108, 143), rgb(240, 243, 246));
+    background-image: url("http://www.addglitter.com/gr/backgrounds/grey/grey-0094.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+/*HEADER*/
+header h1{
+    background: yellow;
+}
+h1{
+    font-family: 'Cute Font', cursive;
+}
+
+
+
+
+
+p{
+    font-family: serif;
+    font-size:1.2em;
+    color:#333333;
+    line-height: 120%;
+}
+.gras{
+    font-weight: bold;
+}
+
+
+#pouceTop{
+    width: 20px;
+    height: 20px;
+    padding-right:10px;
+}
+#pouceBot{
+    background: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/mal.png?token=AMYF2DQKS2E23YFUG7MDY525QX6KW) no-repeat;
+    background-size: 20px;
+    background-position: 295px;
+}
+#cat{
+    background: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/chat.png?token=AMYF2DQAY6VZC5YCFDZS2Y25QYNNA) no-repeat;
+    background-size: 20px;
+    background-position: 320px;
+}
+a{
+    font-weight: bold;
+}
+a:link{
+    color:rgb(145, 255, 43);
+    text-decoration:none;
+    transition:color 2s;
+}
+a:visited{
+    transition:color 2s;
+    color:yellow;
+}
+a:hover{
+    transition: color 2s;
+    color:red;
+}
+blockquote{
+    width:50%;
+    margin:80px auto;
+    font-size:1.6em;
+    background:#dddddd;
+    border-left:3px solid #cc6600;
+    padding:15px 15px;
+    
+}
+.fermier{
+    border-left:3px solid red;
+}
+.villageois{
+    border-left:3px solid blue;
+}
+q, blockquote{
+    font-style:italic;
+}
+.bien , .mal{
+    text-transform: uppercase;
+}
+.bien{
+    color:green;
+}
+.mal{
+    color:red;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.row1{
+    background: #dddddd;
+}
+.row2{
+    background: rgb(112, 112, 112);
+}
+th{
+    background:rgb(162, 141, 233)
+}
+.gauche{
+    float: left;
+    margin-right:40px;
+}
+.droite{
+    float:right;
+    margin-left:40px;
+}
