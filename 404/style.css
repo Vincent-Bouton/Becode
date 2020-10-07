@@ -1,0 +1,24 @@
+body{
+    background:url('https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif');
+    background-size: cover;
+}
+section{
+    text-align: center;
+}
+section h1{
+    margin: 15% auto 0;
+    color:white;
+    font-size: 150px;
+}
+a{
+    padding:10px 20px;
+    background: rgb(78, 78, 78);
+    text-decoration: none;
+    border-radius: 10px;
+    color: #cccccc;
+}
+a:hover{
+    color:#777;
+    background-color: #111111;
+
+}
