@@ -1,4 +1,4 @@
-<h1 align="center">Active Collab</h1>
+<h1 align="center">Ameliorer sa typo</h1>
 
 <!-- Table of content-->
 
@@ -7,21 +7,16 @@
 * [Overview](#overview)
     * [Built With](#built-with)
     * [Built by](#built-by)
-* [Features](#features)
 
 
 ## Overview
 
-![screenshot](./image/site.png)
+![screenshot](./asset/site.png)
 
 The objective was to reproduce a model of a site to the nearest pixel. 
 
 ### Built with
 
-<div>
-    <img width="30"  src="./image/css3.svg" alt="Css3 logo"/>
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge" alt="CSS3"/>
-</div>    
 <div>
     <img width="30"  src="./image/html5.svg" alt="Html 5 Logo"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
