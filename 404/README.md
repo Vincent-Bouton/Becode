@@ -23,8 +23,8 @@ Just a gif in background.
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
 </div>
 <div>
-    <img width="30"  src="./asset/html5.svg" alt="Html 5 Logo"/>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
+    <img width="30"  src="./asset/css3.svg" alt="CSS 3 Logo"/>
+    <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge" alt="CSS3"/>
 </div> 
 
 ### Built by
