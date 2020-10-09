@@ -12,22 +12,22 @@
 
 ## Overview
 
-![screenshot](./tp_final/Assets/image/site.png)
+![screenshot](./tp_final/Assets/images/site.png)
 
 The objective was to make Zozo site pixel perfect and also to do it responsive and Sass.
 
 ### Built with
 
 <a href="https://sass-lang.com/">
-    <img width="30"  src="./tp_final/Assets/image/sass.svg" alt="Sass logo"/>
+    <img width="30"  src="./tp_final/Assets/images/sass.svg" alt="Sass logo"/>
     <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge" alt="Sass"/>
 </a>
 <div>
-    <img width="30"  src="./tp_final/Assets/image/css3.svg" alt="Css3 logo"/>
+    <img width="30"  src="./tp_final/Assets/images/css3.svg" alt="Css3 logo"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge" alt="CSS3"/>
 </div>
 <div>
-    <img width="30"  src="./tp_final/Assets/image/html5.svg" alt="Html 5 Logo"/>
+    <img width="30"  src="./tp_final/Assets/images/html5.svg" alt="Html 5 Logo"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
 </div>
 
