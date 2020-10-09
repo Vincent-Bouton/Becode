@@ -1,4 +1,4 @@
-<h1 align="center">Page 404</h1>
+<h1 align="center">Ameliorer sa typo</h1>
 
 <!-- Table of content-->
 
@@ -13,7 +13,7 @@
 
 ![screenshot](./asset/site.png)
 
-The idea was to imagine a 404 page but not really enjoy about this one. 
+The objective was to reproduce a model of a site to the nearest pixel. 
 
 ### Built with
 
