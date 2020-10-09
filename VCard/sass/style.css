@@ -1,0 +1,263 @@
+/*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+  text-align: left;
+}
+
+section, section header, section .dev .box {
+  -webkit-box-shadow: 0 1px 5px 1px black;
+          box-shadow: 0 1px 5px 1px black;
+  border-radius: 4px;
+}
+
+section header .right-part .button .btn-blue, section header .right-part .button .btn-green {
+  padding: 10px 20px;
+  background: #317CF7;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: #0080ff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  width: 1425px;
+  margin: auto;
+}
+
+section {
+  background-image: url(/images/background1.jpg);
+  background-size: 100% auto;
+  background-color: #1D1D1D;
+  background-position: top,top;
+  background-repeat: no-repeat;
+  width: 99%;
+  height: 99%;
+  margin: auto;
+  padding: 100px;
+}
+
+section header {
+  background: #2B2B2B;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+}
+
+section header .left-part {
+  padding: 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section header .left-part .gprofil {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+section header .left-part .profil {
+  height: 98%;
+  width: 98%;
+  border-radius: 50%;
+  border: solid 3px #0080ff;
+}
+
+section header .left-part figure {
+  margin: 40px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section header .left-part a {
+  -webkit-filter: invert(50%);
+          filter: invert(50%);
+  padding: 10px;
+  -webkit-transition: -webkit-filter .3s;
+  transition: -webkit-filter .3s;
+  transition: filter .3s;
+  transition: filter .3s, -webkit-filter .3s;
+}
+
+section header .left-part a:hover {
+  -webkit-filter: invert(0);
+          filter: invert(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section header .right-part {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-left: 150px;
+}
+
+section header .right-part h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+section header .right-part h1 span {
+  border-bottom: #1D1D1D solid 2px;
+  -webkit-box-shadow: 0 4px 2px -2px #1D1D1D;
+          box-shadow: 0 4px 2px -2px #1D1D1D;
+}
+
+section header .right-part h2 {
+  font-size: 32px;
+  color: #909090;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+section header .right-part .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+}
+
+section header .right-part .button .btn-blue {
+  border-radius: 5px;
+  background: #317CF7;
+  margin: auto 20px 0 0;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  -webkit-transition: -webkit-filter .3s;
+  transition: -webkit-filter .3s;
+  transition: filter .3s;
+  transition: filter .3s, -webkit-filter .3s;
+  font-weight: 500;
+}
+
+section header .right-part .button .btn-blue:hover {
+  -webkit-transition: -webkit-filter .3s;
+  transition: -webkit-filter .3s;
+  transition: filter .3s;
+  transition: filter .3s, -webkit-filter .3s;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+section header .right-part .button .btn-green {
+  border-radius: 5px;
+  background: #61C854;
+  margin: auto 20px;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  -webkit-transition: -webkit-filter 0.3s;
+  transition: -webkit-filter 0.3s;
+  transition: filter 0.3s;
+  transition: filter 0.3s, -webkit-filter 0.3s;
+  font-weight: 500;
+}
+
+section header .right-part .button .btn-green:hover {
+  -webkit-transition: -webkit-filter .3s;
+  transition: -webkit-filter .3s;
+  transition: filter .3s;
+  transition: filter .3s, -webkit-filter .3s;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+section header .right-part .coord {
+  margin-top: 50px;
+}
+
+section header .right-part .coord .coo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0px;
+  text-align: justify;
+}
+
+section header .right-part .coord .coo .first {
+  width: 54px;
+  margin-right: 175px;
+}
+
+section header .right-part .coord .coo .second {
+  color: #909090;
+}
+
+section .dev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+section .dev .box {
+  background: #2B2B2B;
+  width: 690px;
+}
+
+section .dev h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section .dev .front {
+  margin-right: 45px;
+}
+/*# sourceMappingURL=style.css.map */

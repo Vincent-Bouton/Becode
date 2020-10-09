@@ -1,4 +1,4 @@
-<h1 align="center">Tim Berners Lee</h1>
+<h1 align="center">V-Card</h1>
 
 <!-- Table of content-->
 
@@ -12,22 +12,22 @@
 
 ## Overview
 
-![screenshot](./img/site.png)
+![screenshot](./images/site.png)
 
-The objective was to reproduce a model of a site to the nearest pixel. And I start using the CSS preprocessor, Sass.
+The objective was to do a site like Portefolio. And I start using the CSS preprocessor, Sass. Not finishing yet maybe later, or never. 😂
 
 ### Built with
 
 <a href="https://sass-lang.com/">
-    <img width="30"  src="./img/sass.svg" alt="Sass logo"/>
+    <img width="30"  src="./images/sass.svg" alt="Sass logo"/>
     <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge" alt="Sass"/>
 </a>
 <div>
-    <img width="30"  src="./img/css3.svg" alt="Css3 logo"/>
+    <img width="30"  src="./images/css3.svg" alt="Css3 logo"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge" alt="CSS3"/>
 </div>
 <div>
-    <img width="30"  src="./img/html5.svg" alt="Html 5 Logo"/>
+    <img width="30"  src="./images/html5.svg" alt="Html 5 Logo"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" alt="HTML5"/>
 </div>
 
