@@ -1,0 +1,121 @@
+@import "libs/reset.scss";
+
+%shadow-radius{
+    box-shadow:0 0 5px 1px #ccc;
+    border-radius:4px;
+}
+body{
+    background: #EBEBEB;
+    font-family: "Open Sans",sans-serif;
+    color: #817D7D;
+}
+.main{
+    width: 600px;
+    height: auto;
+    margin:auto;
+    .header{
+        background: #fff;
+        text-align: justify;
+        margin-top:30px;
+        padding:10px 20px;
+        @extend %shadow-radius;
+        .image{
+            width: 125px;
+            height: 144px;
+            margin:20px auto;
+            border-radius:225px;
+            img{
+                border-radius:50%;
+                border:solid 4px #ccc;
+            }
+        }
+        h1{
+            text-align: center;
+            color:#dd5555;
+            font-weight: 700;
+            font-family: "Montserrat", sans-serif;
+            font-size:2em;
+            margin:20px 0;
+        }
+        h2{
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color:#817D7D;
+            font-weight:400;
+        }
+        .align{
+            text-align: center;
+            margin:15px auto; 
+        }
+        .btn{
+            color:white;
+            background: #dd5555;
+            padding: 10px 20px;
+            max-width: 300px;
+            text-decoration: none;
+        }
+    }
+    .link{
+        margin-top:30px;
+        height:200px;
+        @extend %shadow-radius;
+        background: #ffffff;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin:50px 30px 0;
+                text-align: center;
+                width: 80px;
+            }
+            img{
+            filter:invert(50%);
+            opacity: .5;
+            width:48px;
+            height: 48px;
+        }
+        }
+        
+        a{
+            color: #817D7D;
+            text-decoration: none;
+        }
+        
+    }
+    .movies{
+        background: #ffffff;
+        @extend %shadow-radius;
+        margin: 30px auto 40px;
+        h2{
+            font-weight: bold;
+            text-align: center;
+            padding: 40px;
+            font-size: 1.5em;
+            span{
+                background: #D4D4D4;
+            }
+        }
+        article{
+            display: flex;
+            margin-top:40px;
+            img{
+                height: 230px;
+                width: auto;
+                margin: auto 15px;
+            }
+            .text{
+                margin:auto 20px;
+                text-align: justify;
+                line-height: 30px;
+                h3{
+                    text-align: center;
+                    font-size:1.3em;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+}
