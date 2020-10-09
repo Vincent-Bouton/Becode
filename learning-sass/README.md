@@ -12,7 +12,7 @@
 
 ## Overview
 
-![screenshot](./Assets/images/site.png)
+![screenshot](./Assets/image/site.png)
 
 The objective was to reproduce active collab with Sass this time. Using all features from Sass
 
