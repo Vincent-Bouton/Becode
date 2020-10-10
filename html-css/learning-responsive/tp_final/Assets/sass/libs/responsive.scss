@@ -1,0 +1,6 @@
+$smallwidth:768px;
+$mediumwidth:992px;
+$largewidth:1200px;
+$small: "only screen and (max-width: #{$smallwidth})";
+$medium: "only screen and (max-width: #{$mediumwidth})";
+$large: "only screen and (max-width: #{$largewidth})";

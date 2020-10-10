@@ -1,0 +1,370 @@
+/* General */
+
+body{
+    width: 1425px;
+    margin:0 auto;
+    height: auto;
+    box-shadow: 0 0 25px 1px #333333;
+    font-family: 'Raleway', sans-serif;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+$background-btn:rgb(63, 155, 248)!default;
+
+%align{
+    margin-top: 25px;
+    display:flex
+}
+%link{
+    text-decoration: none;
+    margin-top:100px;
+    padding:15px 10px;
+    color:rgb(32, 37, 40);
+    &:hover{
+        color:rgb(126, 135,152);
+    }
+}
+@mixin blue($background-btn){
+    background:$background-btn;
+    padding: 9px 18px;
+    border: solid 1px rgb(32,37,40);
+    color:white;
+    border-radius: 8px;
+    text-decoration: none;
+    &:hover{
+        background: white;
+        color:rgb(32, 37,40);
+        cursor: pointer;
+    }
+}
+/* Header */
+
+.head{
+    width:1425px;
+    height:63px;
+    position: relative;
+    background:rgb(233,237,242);
+    #logo{
+        width: 200px;
+        height: 59px;
+        float: left;
+        a{
+            position: absolute;
+            margin-top: 0px;
+            padding:0;    
+        }
+    }
+    .left{
+        display:flex;
+        .link{
+            @extend %link;
+        }
+        .align{
+            @extend %align;
+        }
+    }
+    .right{
+        display:flex;
+        position:absolute;
+        right:0;
+        top:0;
+        .link{
+            @extend %link;
+        }
+        .align{
+            @extend %align;
+        }
+        #box{
+            display: flex;
+            margin:25px 0 0 0;
+            .blueL{
+                @include blue($background-btn);
+                border-radius:8px 0 0 8px;
+            }
+            .blueR{
+                @include blue($background-btn);
+                border-radius: 0 8px 8px 0;
+                margin-right: 15px;
+            }
+        }
+        
+    }
+    
+}
+
+/* Title */
+$background:rgb(233, 237, 242);
+.title{
+    text-align: center;
+    padding:56.5px;
+    margin:0;
+    font-size:2.8em;
+    font-weight: normal;
+    background: $background;
+}
+
+/* Management*/
+$position:55px!default;
+$margin:20px 30px!default;
+@mixin box($position, $margin){
+    text-align: center;
+    border-right:solid 1px rgb(32,37,40);
+    background-position:top $position center;
+    h2{
+        margin: 230px auto 0;
+    }
+    p{
+    margin:$margin;
+    font-size: 0.9em;
+    color: rgb(178,181,187);
+    }
+}
+.management{
+    height: 356px;
+    background: rgb(63, 70, 85);
+    position:relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: solid 1px rgb(32,37,40);
+    border-bottom: solid 1px rgb(32,37,40);
+    article{
+        width: 320px;
+        height: 356px;
+    }
+    .box1{
+        background: url(/Assets/image/clipboard.png) no-repeat;
+        @include box(40px,$margin);
+    }
+    .box2{
+        background: url(/Assets/image/bulle.png) no-repeat;
+        @include box($position,$margin);
+    }
+    .box3{
+        background: url(/Assets/image/radar.png) no-repeat;
+        @include box($position,$margin);
+    }
+    .box4{
+        background: url(/Assets/image/contrat.png) no-repeat;
+        @include box($position,20px 50px);
+        border-right:none;
+    }
+}
+
+/* Try it */
+
+.try-it{
+    height: 846px;
+    background: rgb(233, 237, 242);
+    background-image: url(/Assets/image/activecollab_1.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    text-align:center;
+    .try-text{
+        margin:0 auto;
+        width: 51%;
+        padding: 50px;
+        font-size:1.4em;
+        font-weight: normal;
+    }
+    .try-link{
+        @include blue($background-btn);
+        padding:15px 39px;
+        font-size:1.4em;
+    }
+    .try-minText{
+    margin:30px 0 0 0;
+    }
+}
+
+/* Buy */
+
+@mixin box(){
+    width: 365px;
+    background: {
+        repeat: no-repeat;
+        position: center top 40px;
+    }
+    h3{
+        font-size: 1.25em;
+        padding-top:146px;
+    }
+    ul{
+        list-style-type: none;
+        font-size: 1.17em;
+        line-height:30px;
+        padding-left:0px;
+        margin-bottom: 28px;
+    }
+    a{
+        @include blue($background-btn);
+        padding:11px 20px;
+        font-size:1em;
+    }
+    p:last-of-type{
+        font-family:serif;
+        margin-top:28px;
+    }
+}
+.buy{
+    height: 826px;
+    background: white;
+    border-bottom: solid 1px rgb(198, 202, 206);
+    text-align: center;
+    margin:0;
+    h2{
+        padding-top:70px;
+        margin:0;
+        font-size:1.9em;
+    }
+    .buy-text{
+        padding-top: 30px;
+        font-size:1.5em;
+        width: 51%;
+        margin:0 auto;
+    }
+    .buy-box{
+        height: 440px;
+        display:flex;
+        justify-content: center;
+        margin-top:30px;
+    }
+    .buy-box1{
+        @include box();
+        border-right: solid 1px rgb(217,217,217);
+        background-image:url(/Assets/image/30.png);
+    }
+    .buy-box2{
+    @include box();
+    background-image:url(/Assets/image/lock.png);
+    }
+}
+
+/* Collab */
+
+.collab{
+    height: 445px;
+    background: rgb(233, 237, 242);
+    border-bottom: solid 1px rgb(198, 202, 206); 
+    text-align:center;
+    .collab-title{
+        margin:0px;
+        padding-top:70px;
+        font-size:1.9em;   
+    }
+    .collab-text{
+        padding-top:20px;
+        font-size:1.25em;
+        line-height: 35px;
+        width:51%;
+        margin:auto;
+    }
+    .collab-img img{
+        display: inline;
+        padding: 20px 10px;
+    }
+}
+
+/* Get Start */
+%input{
+    display: block;
+    width: 84%;
+    margin: auto;
+    border: solid 1px rgb(32,37,40);
+    border-radius: 5px;
+    height: 40px;
+    padding-left:10px ;
+    font-size:1.0em;
+}
+.get-start{
+    height: 831px;
+    background: white;
+    p:first-of-type{
+        text-align: center;
+        font-size: 1.3em;
+        margin:auto;
+        margin-top:15px;    
+    }
+    h2{
+        margin-top:60px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .get-start-form{
+        width: 480px;
+        height:428px;
+        border:solid 1px rgb(32,37,40);
+        background: rgb(233,237,242);
+        border-radius:5px;
+        margin:40px auto 0;
+        p{
+            text-align: center;
+            margin-top: 40px;
+        }
+        .get-start-form-label{
+            display: block;
+            font-weight: bold;
+            margin:0 auto;
+            font-size:1em;
+            margin: 30px 45px 0 35px;
+        }
+        #orgainput{
+            @extend %input;
+        }
+        #emailinput{
+            @extend %input;
+        }
+        #passinput{
+            @extend %input;
+        }
+        .button{
+            @include blue($background-btn);
+            padding:9px 20px;
+            font-size:1em;
+            display: flex;
+            margin: auto;
+            margin-top: 40px;
+        }
+    }
+    .get-start-footer{
+        display: block;
+        text-align: center;
+        font-size:0.8em;
+        color:rgb(126, 135,152);
+        p:first-of-type{
+            margin-top:35px;
+        }
+        .get-start-footer a{
+            color:rgb(126, 135,152)
+        }        
+    }
+}
+
+/* Footer */
+
+.foot{
+    height: 525px;
+    background: rgb(63, 70, 85);
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size:0.9em;
+    margin-top:60px;
+    flex:1;
+    .table-footer{
+        color: rgb(126, 135,152);
+        a{
+            color:white;
+            text-decoration: none;
+            &:hover{
+                color: rgb(126, 135,152);
+            }
+        }
+        li{
+            padding:5px 10px;
+        }
+    }
+}
