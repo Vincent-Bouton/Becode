@@ -1,0 +1,31 @@
+body{
+  color:#333;
+  background-color: #aaa;
+}
+section{
+  text-align: center;
+  .letterInput{
+    display: flex;
+    justify-content: center;
+    #letter{
+      margin-left: 0.5em;
+    }
+    #buttonPlay{
+      margin-left: 0.5em;
+    }
+    
+  }
+  .globalWord{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    @for $i from 1 through 7{
+    .word#{$i}{
+      border-bottom: 1px solid #000;
+      margin:0.5em;
+      width: 1em;
+    }
+  }
+  }
+  
+}
