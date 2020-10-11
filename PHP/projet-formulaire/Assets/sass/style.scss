@@ -1,0 +1,180 @@
+@import "../sass/libs/fonts";
+@import "../sass/libs/lib";
+@import "../materialize-src/sass/materialize.scss";
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: $secondary-color;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(151, 151, 151);
+}
+.none {
+  display: none;
+}
+.btnPlus {
+  height: inherit;
+  font-weight: bold;
+}
+
+html {
+  font-weight: bold;
+  color: $secondary-color;
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    color: $secondary-color;
+  }
+}
+.marginZ {
+  margin: 0 !important;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  .icons {
+    i {
+      transform: rotate(-90deg);
+      transition: 0.5s;
+    }
+    &:hover {
+      i {
+        transform: rotate(0deg);
+        transition: 0.5s;
+      }
+    }
+  }
+  header {
+    height: $height-header;
+    #navbar {
+      position: fixed; /* Make it stick/fixed */
+      top: 0; /* Stay on top */
+      width: 100%; /* Full width */
+      transition: top 0.3s; /* Transition effect when sliding down (and up) */
+      z-index: 1000;
+    }
+    .listTop {
+      a {
+        padding: 0 10px !important;
+      }
+    }
+    .dropMargin {
+      position: absolute;
+      top: -$height-header;
+    }
+    .logo {
+      flex-wrap: nowrap;
+    }
+  }
+  main {
+    z-index: 100;
+    margin-bottom: $height-footer;
+    .logo {
+      background: url(../images/hackers-poulette-logo.png) no-repeat;
+      background-size: 650px 550px !important;
+
+      transform: translateY(-405px);
+    }
+    section {
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .about {
+        padding-top: 20px;
+        h2 {
+          margin-top: 0;
+        }
+      }
+      i {
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+  footer {
+    height: $height-footer;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    .social {
+      color: white;
+      padding: 0 5px;
+      transition: 0.3s;
+      &:hover {
+        transition: 0.3s;
+      }
+    }
+    .listSocial {
+      display: flex;
+    }
+  }
+}
+@media #{$small-and-down} {
+  $height-header: 74px;
+  header {
+    .logos {
+      font-size: 1.4em;
+    }
+  }
+}
+@media #{$medium-and-down} {
+  $height-footer: 330px !important;
+  .contact {
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .tabBar {
+    display: none;
+  }
+  footer {
+    height: $height-footer;
+  }
+  main {
+    margin-bottom: $height-footer;
+  }
+}
+
+.media {
+  margin-right: 1em;
+}
+.jack .john {
+  width: 210px;
+  height: 204px;
+}
+.kits {
+  .card {
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+.raspberry_home {
+  height: 259px !important;
+}
+
+.answer {
+  width: 127px !important;
+  height: 276px !important;
+}
+.img_caroussel {
+  background-color: rgba(#fff, 0.5);
+}

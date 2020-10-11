@@ -1,0 +1,19 @@
+$primary-color: #15c5bd;
+$secondary-color: #303030;
+$font-stack: Bellota, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$height-footer: 230px;
+$height-header: 64px;
+
+.secondary {
+  background: $secondary-color !important;
+}
+.height {
+  height: $height-header !important;
+}
+.text-primary {
+  color: $primary-color !important;
+}
+.text-secondary {
+  color: $secondary-color !important;
+}

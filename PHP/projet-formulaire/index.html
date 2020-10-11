@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="Description"
+      content="Page d'accueil de Hackers Poulette, Site qui vend des kits et accessoires pour Raspberry Pi à monter sois-même"
+    />
+    <link rel="stylesheet" href="Assets/css/style.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Assets/images/hackers-poulette-logo.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      rel="stylesheet"
+    />
+    <title>Hackers Poulette</title>
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center logos">
+              Hackers Poulette
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul id="dropdown1" class="dropdown-content dropMargin">
+              <li>
+                <a href="views/sell.html#kits" class="text-secondary">
+                  Kits
+                </a>
+              </li>
+              <li>
+                <a href="views/sell.html#accessories">Accessoires</a>
+              </li>
+            </ul>
+            <div class=" left tabBar">
+              <ul class="nav-mobile">
+                <li class="listTop"><a href="index.html">Accueil</a></li>
+                <li class="listTop">
+                  <a href="views/about.html">Qui sommes-nous ?</a>
+                </li>
+                <li class="listTop">
+                  <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                    Que faisons-nous ?
+                    <i class="material-icons right marginZ">
+                      arrow_drop_down
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="sidenav hamNav" id="mobile-demo">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="views/about.html">Qui sommes-nous ?</a></li>
+              <li><a href="views/sell.html">Que faisons-nous ?</a></li>
+              <li>
+                <a href="Assets/php/contact.php">Contact</a>
+              </li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+              <!-- Dropdown Trigger -->
+              <li></li>
+              <li><a href="Assets/php/contact.php"> Contact </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="white">
+      <section id="homePage" class="">
+        <div class="slider ">
+          <h1 class="none">Hackers Poulette</h1>
+          <ul class="slides">
+            <li>
+              <img
+                src="Assets/images/disk.png"
+                class="img_caroussel"
+                alt="Photo aléatoire"
+              />
+              <img
+                class="logo container"
+                src="Assets/images/hackers-poulette-logo.png"
+                alt="Logo"
+              />
+            </li>
+            <li>
+              <img src="Assets/images/electronics.png" alt="Photo aléatoire" />
+              <!-- random image -->
+              <img
+                class="logo container img_caroussel"
+                src="Assets/images/hackers-poulette-logo.png"
+                alt="Logo"
+              />
+            </li>
+            <li>
+              <img src="Assets/images/keyboard.png" alt="Photo aléatoire" />
+              <!-- random image -->
+              <img
+                class="logo container"
+                src="Assets/images/hackers-poulette-logo.png"
+                alt="Logo"
+              />
+            </li>
+            <li>
+              <img
+                src="Assets/images/kit.png"
+                alt="Photo
+              aléatoire"
+              />
+              <!-- random image -->
+              <img
+                class="logo container"
+                src="Assets/images/hackers-poulette-logo.png"
+                alt="Logo"
+              />
+            </li>
+          </ul>
+        </div>
+        <article class="container about">
+          <div class="col s12">
+            <div class="row">
+              <div class="col s12 m12 l5">
+                <h2 class="text-secondary center">
+                  Qui sommes-nous ?
+                </h2>
+                <p>
+                  Hackers Poulette donne les moyens d'améliorer la puissance de
+                  son ordinateur.
+                </p>
+              </div>
+
+              <div class="col s12 m12 l7 right">
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img
+                      class="answer"
+                      src="Assets/images/answer.png"
+                      alt="Photo aléatoire"
+                    />
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>
+                        Hackers Poulette, fondé en janvier 2017, est une jeune
+                        startup portée par deux amis entrepreneurs. Leur but est
+                        d'offrir le plus de possibilités techniques pour
+                        améliorer son ordinateur.
+                      </p>
+                      <p>
+                        Si vous êtes perdus, Jack Davis ou John Doe se fera un
+                        plaisir de vous aider!
+                      </p>
+                    </div>
+                    <div class="card-action">
+                      <a
+                        class="waves-effect waves-light btn icons btnPlus"
+                        href="views/about.html"
+                        >En savoir plus
+                        <i class="material-icons ">add</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="container doing center">
+          <h2>Que faisons-nous ?</h2>
+          <p>
+            Hackers Poulette propose des kits et accessoires pour monter son
+            propre Raspberry Pi. Ceux-ci sont à monter soi-même.
+          </p>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    class="raspberry_home"
+                    src="Assets/images/raspberry_on_laptop.jpg"
+                    alt="Photo aléatoire"
+                  />
+                  <span class="card-title">Kits</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Du kit pour débutant au kit pour personne avec plus de
+                    connaissances, nous sommes sûrs que vous trouverez votre
+                    bonheur!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    class="waves-effect waves-light btn icons btnPlus"
+                    href="views/sell.html#kits"
+                    >En savoir plus
+                    <i class="material-icons ">add</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    class="raspberry_home"
+                    src="Assets/images/inside_raspberry.jpg"
+                    alt="Photo aléatoire"
+                  />
+                  <span class="card-title ">Accessoires</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A la recherche d'un accessoire pour améliorer votre
+                    Raspsberry? Faites un tour sur notre page pour trouver tous
+                    les accessoires dont vous avez besoin.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    class="waves-effect waves-light btn icons btnPlus"
+                    href="views/sell.html#accessories"
+                    >En savoir plus
+                    <i class="material-icons ">add</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l3 m6 s3">
+            <h5 class="white-text">Hackers Poulette</h5>
+            <p>
+              Nous vendons des kits et des accessoires pour Raspberry Pi à
+              assembler vous-mêmes.
+            </p>
+          </div>
+
+          <div class="col l3 offset-l1 m4 s4">
+            <h5 class="white-text">Produits</h5>
+            <ul>
+              <li class="icons">
+                <a class="grey-text text-lighten-4" href="views/sell.html#kits">
+                  <i class="tiny material-icons">chevron_right</i>
+                  Kits
+                </a>
+              </li>
+              <li class="icons">
+                <a
+                  class="grey-text text-lighten-4"
+                  href="views/sell.html#accessories"
+                >
+                  <i class="tiny material-icons">chevron_right</i>
+                  Accessoires
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col l3 m7 s5">
+            <h5 class="white-text">Société</h5>
+            <ul>
+              <li class="icons">
+                <a class="grey-text text-lighten-4" href="views/about.html">
+                  <i class="tiny material-icons">chevron_right</i>
+                  Qui sommes-nous?
+                </a>
+              </li>
+              <li class="icons">
+                <a class="grey-text text-lighten-4" href="views/sell.html">
+                  <i class="tiny material-icons">chevron_right</i>
+                  Que faisons-nous?
+                </a>
+              </li>
+              <li class="icons">
+                <a
+                  class="grey-text text-lighten-4"
+                  href="Assets/php/contact.php"
+                >
+                  <i class="tiny material-icons">chevron_right</i>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l2 m5 s6">
+            <h5 class="white-text">Suivez-nous</h5>
+            <ul class="listSocial">
+              <li>
+                <a href="http://www.facebook.com">
+                  <img
+                    src="https://img.icons8.com/ios/26/000000/facebook.png  "
+                    alt="facebook"
+                    class="social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.instagram.com">
+                  <img
+                    src="https://img.icons8.com/ios/26/000000/instagram-new.png"
+                    alt="instagram"
+                    class="social"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com">
+                  <img
+                    src="https://img.icons8.com/ios/26/000000/twitter.png"
+                    alt="Twitter"
+                    class="social"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Assets/materialize-src/js/bin/materialize.min.js"></script>
+    <script src="Assets/js/script.js"></script>
+  </body>
+</html>
