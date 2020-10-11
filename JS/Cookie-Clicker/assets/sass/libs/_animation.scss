@@ -1,0 +1,294 @@
+// ANIMATION
+// Reflet Boule disco
+@keyframes refletboule {
+    10% {
+        background: radial-gradient(circle at 100px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 22px 10px rgba(148,176,255,1);
+        
+    }
+    20% {
+        background: radial-gradient(circle at 80px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 24px 12px rgba(148,176,255,1);
+        
+    }
+    30% {
+        background: radial-gradient(circle at 60px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 26px 14px rgba(148,176,255,1);
+        
+    }
+    30% {
+        background: radial-gradient(circle at 40px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 28px 16px rgba(148,176,255,1);
+       
+    }
+    40% {
+        background: radial-gradient(circle at 20px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 30px 18px rgba(148,176,255,1);
+        
+    }
+    50% {
+        background: radial-gradient(circle at 0px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 28px 16px rgba(148,176,255,1);
+        
+    }
+    60% {
+        background: radial-gradient(circle at 20px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 26px 14px rgba(148,176,255,1);
+        
+    }
+    70% {
+        background: radial-gradient(circle at 40px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 24px 12px rgba(148,176,255,1);
+       
+    }
+    80% {
+        background: radial-gradient(circle at 60px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 22px 10px rgba(148,176,255,1);
+        
+    }
+    90% {
+        background: radial-gradient(circle at 80px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 21px 10px rgba(148,176,255,1);
+        
+    }
+    100% {
+        background: radial-gradient(circle at 100px 100px, #5cabff, rgb(202, 189, 189));
+        box-shadow: 0px 0px 20px 10px rgba(148,176,255,1);
+        
+    }
+}
+// Musique de gauche
+@keyframes music-left {
+    10% {
+        opacity: .9;
+       font-size: 27px;
+        transform: translate(15px,-15px);
+    }
+    20%{
+        opacity: .8;
+        font-size: 24px;
+        transform: translate(30px,-35px);
+    }
+    30%{
+        opacity: .7;
+        font-size: 21px;
+        transform: translate(45px,-70px);
+    }
+    40%{
+        opacity: .6;
+        font-size: 19px;
+        transform: translate(60px,-105px);
+    }
+    50%{
+        opacity: .5;
+        font-size: 16px;
+        transform: translate(75px,-140px);
+    }
+    60%{
+        opacity: .4;
+        font-size: 13px;
+        transform: translate(90px,-175px);
+    }
+    70%{
+        opacity: .3;
+        font-size: 10px;
+        transform: translate(105px,-210px);
+    }
+    80%{
+        opacity: .2;
+        font-size: 7px;
+        transform: translate(115px,-245px);
+    }
+    90%{
+        opacity: .1;
+        font-size: 4px;
+       transform: translate(125px,-270px);
+    }
+    100%{
+        opacity: 0;
+        font-size: 1px;
+        transform: translate(135px,-310px);
+    }
+
+}
+// Musique de droite
+@keyframes music-right {
+    10% {
+        opacity: .9;
+       font-size: 27px;
+        transform: translate(-15px,-15px);
+    }
+    20%{
+        opacity: .8;
+        font-size: 24px;
+        transform: translate(-30px,-35px);
+    }
+    30%{
+        opacity: .7;
+        font-size: 21px;
+        transform: translate(-45px,-70px);
+    }
+    40%{
+        opacity: .6;
+        font-size: 19px;
+        transform: translate(-60px,-105px);
+    }
+    50%{
+        opacity: .5;
+        font-size: 16px;
+        transform: translate(-75px,-140px);
+    }
+    60%{
+        opacity: .4;
+        font-size: 13px;
+        transform: translate(-90px,-175px);
+    }
+    70%{
+        opacity: .3;
+        font-size: 10px;
+        transform: translate(-105px,-210px);
+    }
+    80%{
+        opacity: .2;
+        font-size: 7px;
+        transform: translate(-115px,-245px);
+    }
+    90%{
+        opacity: .1;
+        font-size: 4px;
+       transform: translate(-125px,-270px);
+    }
+    100%{
+        opacity: 0;
+        font-size: 1px;
+        transform: translate(-135px,-310px);
+    }
+
+}
+
+// Elements
+// BOULE A FACETTE
+.bouledisco {
+    position: absolute;
+    top: 0%;
+    right: 18%;
+    width: 165px;
+    height: 165px;
+    border: solid 3px #94B0FF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 22px 10px rgba(148,176,255,1);
+    background: radial-gradient(circle at 100px 100px, #5cabff, rgb(202, 189, 189),);
+    animation-name: refletboule;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 0.6;
+}
+// NOTE DE MUSIQUE GAUCHE
+.music-left-top {
+    position: absolute;
+    bottom: 265px;
+    left: 130px;
+    font-size: 30px;
+    color: black;
+    animation-name: music-left;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+.music-left-bot {
+    
+    position: absolute;
+    left: 140px;
+    bottom: 105px;
+    font-size: 30px;
+    animation-name: music-left;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+.music-left-top-one {
+    @extend .music-left-top ;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+.music-left-bot-one {
+    @extend .music-left-bot ;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}
+.music-left-top-two {
+    @extend .music-left-top ;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+}
+.music-left-bot-two {
+    @extend .music-left-bot ;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+.music-left-top-three {
+    @extend .music-left-top ;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+.music-left-bot-three {
+    @extend .music-left-bot ;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+}
+// NOTE MUSIQUE DE DROITE
+.music-right-top{
+    position: absolute;
+    font-size: 30px;
+    right:160px;
+    bottom: 270px;
+    opacity: 0;
+    animation-name: music-right;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.music-right-bot{
+    position: absolute;
+    font-size: 30px;
+    right:130px;
+    opacity: 0;
+    bottom: 95px;
+    animation-name: music-right;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.music-right-top-one{
+    @extend .music-right-top ;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+.music-right-bot-one{
+    @extend .music-right-bot ;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+.music-right-top-two{
+    @extend .music-right-top ;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+}
+.music-right-bot-two{
+    @extend .music-right-bot ;
+    animation-timing-function: ease-in;
+    animation-delay: 4s;
+}
+.music-right-top-three{
+    @extend .music-right-top ;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+.music-right-bot-three{
+    @extend .music-right-bot ;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+}

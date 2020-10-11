@@ -1,0 +1,95 @@
+@import 'libs/animation';
+.page{
+    display: flex;
+    margin-left: 3%;
+    margin-right:3%;
+    .cookie {
+      position: relative;
+      display: block;
+      width: 98vw;
+      height: 100vh;
+      background: url(../image/fond.jpg);
+      background-position:center center ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 2px solid black;
+      .title{
+        margin-left: 30%;
+        margin-right: 20%;
+        color: white;
+        display: inline-block;
+        border-bottom: 2px solid black;
+
+      }
+      .clickCookie{
+        margin: 25% 5% 0% 25%;
+        background : url(../image/cookie.gif);
+        background-size: 60%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 30vw;
+        height: 40vh;
+        margin-top: 18%;
+          &:active{
+ 
+              transform: rotate(25deg); /* Équivalent à rotateZ(45deg) */
+
+
+          }
+      }
+
+    
+      .multiply{
+        border-radius: 25% 0% 25% 0%;
+        background-color : greenyellow;
+        padding : 2%;
+        margin-left: 25%;
+      }
+      .bonus{
+        border-radius: 25% 0% 25% 0%;
+        background-color : greenyellow;
+        padding : 2%;
+        margin-left: 5%;
+      }
+      .reset{
+        border-radius: 25% 0% 25% 0%;
+        background-color : greenyellow;
+        padding : 2%;
+        margin-left: 5%;
+      } 
+      .points{
+        width: 30%;
+        height: 30%;
+        font-weight: bold;
+        background-image: url(../image/miam.gif);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index:2;
+        opacity:0;
+    }
+    .encadrement{
+        float: right;
+        border: 2px solid black;
+        border-radius : 10%;
+        margin-top : 2%;
+        margin-right: 2%;
+        text-align: center;
+        width: 10%;
+      .totalPoints{
+        border-top : 2px solid black;
+        color: white;
+        background-color : black;
+      .autoClickInfo {
+        border-top : 2px solid black;
+        color: white;
+        background-color : black;
+      }
+      }
+    }
+  
+    }
+  
+  }
+  
+
+
